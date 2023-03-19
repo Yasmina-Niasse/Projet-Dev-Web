@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reserv.css">
+	<title>R&eacute;servation</title>
+</head>
+<body>
+	<header class="titre">R&eacute;servation</header>
+	<form class="reservation">
+		<fieldset>
+			<label for="text">Pr&eacute;nom</label><br>
+			<input type="text" id="first-name" placeholder="Your first name here"><br>
+			<label for="text">Nom</label><br>
+			<input type="text" id="name" placeholder="Your name here"><br>
+			<label for="age">Age</label><br>
+			<input type="number" id="age"><br>
+			<label for="text" class="saisi">Plats</label><br>
+			<input type="checkbox" id="chocolat"><label for="chocolat">Carr&eacute;s au chocolat et au lait malt&eacute;</label>
+			<input type="checkbox" id="nuggets"><label for="nuggets">Nuggets vegan au tofu</label>
+			<input type="checkbox" id="nems"><label for="nems">Nems au poulet</label>
+			<input type="checkbox" id="boule"><label for="boule">Yeux d'halloween fa&ccedil;on boule coco</label><br>
+            <input type="checkbox" id="lasagne"><label for="lasagne">Lasagne</label><br>
+            <input type="checkbox" id="ptitchef"><label for="ptitchef">Ptitchef</label><br>
+            <input type="checkbox" id="momie"><label for="momie">Saucisses momie</label><br>
+            <input type="checkbox" id="beignets"><label for="beignets">Beignets au four</label><br>
+            <input type="checkbox" id="chicken"><label for="chicken">Harissa Chicken</label><br>
+            <input type="checkbox" id="domodaa"><label for="domodaa">Domoda poison</label><br>
+            <input type="checkbox" id="kandia"><label for="kandia">Soupe kandia</label><br>
+            <input type="checkbox" id="pizza"><label for="pizza">Pizza momie</label><br>
+            <input type="checkbox" id="salade"><label for="salade">Salade Parisienne</label><br>
+            <input type="checkbox" id="salade"><label for="salade">Salade de pois chiches</label><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Votre avis</legend>
+			<label>Commentez</label><br>
+			<textarea cols="30" rows="10"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Action</legend>
+			<input class="bout" type="reset" value="R&eacute;initialiser">
+			<input class="bout" type="submit" value="Envoyer">
+		</fieldset>
+	</form>
+</body>
+</html>
